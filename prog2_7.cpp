@@ -32,10 +32,10 @@ int main(){
 	printf("Nombre: [%s]\n", nombre);
 	printf("Carrera: [%s]\n", carrera);
 	printf("La longitud de nombre 2 es %d\n", longitud);
-	if (strlen(nombre)>strlen(nombre2)){
+	if (strlen(nombre)>strlen(nombre2)){ //Condicional
 		printf("Nombre tiene mas caracteres\n");
 	}
-	strcpy(nombre2, "Hola mundo!!!");
-	printf("Nombre2= [%s]\n", nombre2);
+	strcpy(nombre2, "Hola mundo!!!");//Función de string
+	printf("Nombre2= [%s]\n", nombre2); //Salida
 	return 0;
 }
